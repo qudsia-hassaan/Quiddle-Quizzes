@@ -481,20 +481,20 @@ input[type=radio] {
 }
 /* mobile-view */
 @media (max-width:551px){
+    body {
+        width: 550px;
+        margin: 0px 5px;
+        height: auto;
+    }
     .navigation nav{
-        width: 300px;
+        width: 320px;
         display: flex;
     } 
-    body {
-        width: 375px;
-        margin: 10px 5px;
-        height: 500px;
-    }
     .login-area p {
         display: none;
     }
     .login-area button{
-        margin-left: 65px;
+        margin-left: 72px;
 
     }
     .conatiner{
@@ -502,6 +502,7 @@ input[type=radio] {
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr;
         row-gap: 0px;
+        width: 550px;
     }
     .main-heading {
         padding-top: 12px;
